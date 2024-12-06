@@ -1,0 +1,224 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    font-family: Inter;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: linear-gradient(270deg, #039B11 0%, #7479FF 100%);
+    box-shadow: -2px 0px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+#LogoBox1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#LogoBox2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    width: 31vw;
+    height: 13vh;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(53, 163, 210, 0.67);
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 13vh;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #ffffff;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 13vh;
+    flex-shrink: 0;
+    border-radius: 25px;
+    margin-left: 1%;
+}
+
+.schoolname{
+    color: var(--Orange, #FCA304);
+    font-family: Inter;
+    font-size: 140%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90%;
+}
+
+h5{
+    padding: 0%;
+    margin: 0%;
+}
+
+#logoHeader{
+    margin-right: 10px;
+    height: auto;
+    width: 5vw;
+}
+
+#EMS{
+    margin: 0%;
+    padding: 0%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: calc(18px + 1vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 64px */
+    letter-spacing: 1.28px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.content-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.steps-box {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: row;
+    width: 902px;
+    height: 183px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.enrolled-box {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    width: 902px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#backButton {
+    margin-right: 750px;
+}
+.enrolled-box h3 {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+#buttonCOR {
+    background-color: #FFE606;
+    border: black;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 190px;
+    height: 48;
+    cursor: pointer;
+}
+.images {
+    margin-top: 0px;;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 84px;
+    justify-content: center;
+    background-color: var(--Gray, #54514F);
+}
+
+.FooterBox{
+    width: 440px;
+    height: 100%;
+    align-content: center;
+}
+
+.FooterBox p{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 6px;
+}
+
+.boxFoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.socmed{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+.socmed img{
+    height: auto;
+    width: 30px;
+}
+.line {
+    margin: 0;
+}

@@ -1,0 +1,306 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  font-family: Inter;
+  overflow: auto;
+  background-color: #dbd8d8;
+} 
+/* Sidebar begins here*/
+
+.sideboard{
+  background-color: #fffdfd;
+  float: left;
+  width: 20%;
+  height: 100%;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 30px;
+}
+.box2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 13vh;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #ffffff;
+  margin-bottom: 16%;
+}
+.schoolname{
+  color: var(--Orange, #FCA304);
+  font-family: Inter;
+  font-size: 170%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 90%;
+  margin-left: 10px;
+}
+#logoHeader{
+  margin-right: 10px;
+  height: auto;
+  width: 5vw;
+}
+h5{
+  padding: 0%;
+  margin: 0%;
+}
+
+.sidebar h3 {
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.menu {
+  margin-top: 16%;
+  margin-bottom: 0%;
+}
+.option {
+  align-self: center;
+  width: 100%;
+  height: 33px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #ffffff;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:left;
+}
+.option-logo{
+  width: 20px;
+  height: 20px;
+  margin: 17px;
+}
+.option a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: 550;
+}
+.option:hover {
+  background-color: #f1f0f0;
+}
+.option.active{
+  background-color: #A6FFBF;
+}
+.logoutline{
+  margin-top: 4%;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 80px;
+}
+.logout{
+  width: 50%;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 25%;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.logout:hover{
+  cursor: pointer;
+}
+.logout a{
+  text-decoration: none;
+  color: #333;
+}
+.logoutline p{
+  font-weight: 100;
+  align-items: center;
+  margin-left: 10px;
+}
+p{
+  margin-left: 10px;
+  margin-top: 16%;
+  font-size: medium;
+  font-weight:250;
+}
+.contact {
+  display: flex;
+  margin-top: 7%;
+  margin-left: 4%;
+  margin-bottom: 0%;
+}
+h1 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size:x-large;
+  font-weight: 600;
+}
+.needhelp {
+  margin-top: 50px;
+}
+.contact p {
+  flex-direction: column;
+  font-size: smaller;
+}
+.contact img {
+  width: 140px;
+  height: 200px;
+  margin-bottom:0;
+}
+
+/* End of Sidebar */
+
+/* Mainboard begins here*/
+
+.mainboard{
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+.top{
+  width: 98%;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #fffdfd;
+  float: right;
+  margin: 5px 10px 5px 10px;
+}
+.top img{
+  width: 30px;
+  height:30px;
+  float: right;
+  margin: 4px 4px 4px 4px;
+}
+.container{
+  flex-direction: column;
+  width: 92%;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  float: right;
+  margin: 5px 10px 5px 10px;
+  padding: 30px;
+}
+
+.SelectorBox{
+display: flex;
+flex-direction: column;
+}
+
+.SelectorBox h2{
+  margin-top: -10px;
+}
+
+.optBox{
+display: flex;
+flex-direction: row;
+}
+
+.optBox1{
+display: flex;
+flex-direction: column;
+width: 8%;
+}
+
+.optBox1 p{
+line-height: 50px;
+}
+
+.optBox2{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.container1 {
+display: flex;
+flex-direction: column;
+}
+
+h2 {
+  float: left;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+select {
+  height: auto;
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.classSelect{
+margin-bottom: 3%;
+}
+
+table {
+  border-radius: 10px;
+  overflow: hidden; 
+}
+.schedule-table {
+  margin-top: 20px;
+  width: 95%;
+  border-collapse: collapse;
+  margin-left: 2%;
+}
+
+.statusSelect {
+  width: 60%;
+  height: auto 0;
+  appearance: none;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid orange;
+  color: orange;
+  outline-color: inherit;
+}
+
+tr:hover {background-color: #ddd;}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.schedule-table th {
+  background-color: #FFE606;
+  font-weight: 550;
+  text-align: center;
+}
+
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+  .schedule-table th,
+  .schedule-table td {
+    font-size: 12px;
+  }
+
+  .schedule-table td:first-child {
+    width: 50%;
+  }
+
+  .schedule-table td:nth-child(2) {
+    width: 25%;
+  }
+
+  .schedule-table td:last-child {
+    width: 25%;
+  }
+}
